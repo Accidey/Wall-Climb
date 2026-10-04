@@ -3,10 +3,8 @@
   "wallclimb.configuration.section.wallclimb.client.toml": "贴墙攀爬",
   "wallclimb.configuration.section.wallclimb.client.toml.title": "贴墙攀爬",
 
-  "wallclimb.configuration.enabled": "启用贴墙攀爬",
-  "wallclimb.configuration.enabled.tooltip": "面对墙壁按住跳跃键即可攀爬，最高两格",
   "wallclimb.configuration.maxHeight": "最大可爬高度",
-  "wallclimb.configuration.maxHeight.tooltip": "仍然爬得上去的最高墙高（格）；三格及以上永远爬不上去",
+  "wallclimb.configuration.maxHeight.tooltip": "仍然爬得上去的最高墙高（格）；填 0 关闭此功能",
   "wallclimb.configuration.climbSpeed": "攀爬速度",
   "wallclimb.configuration.climbSpeed.tooltip": "攀爬速度（格/秒），原版梯子约为 4"
 }

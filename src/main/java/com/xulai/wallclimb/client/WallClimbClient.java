@@ -47,7 +47,7 @@ public final class WallClimbClient {
             return;
         }
         Minecraft mc = Minecraft.getInstance();
-        if (!Config.ENABLED.get() || mc.screen != null || !mc.isWindowActive()
+        if (Config.MAX_HEIGHT.get() <= 0 || mc.screen != null || !mc.isWindowActive()
                 || !mc.options.keyJump.isDown() || unavailable(player)) {
             targetTopY = Double.NaN;
             return;
