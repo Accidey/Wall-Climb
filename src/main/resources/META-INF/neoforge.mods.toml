@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Xulai"
+displayTest="IGNORE_ALL_VERSION"
+description='''
+Wall Climb - hold the jump key while facing a wall and you climb it. Obstacles up to two blocks tall can be grabbed: you stick to the wall, slide straight up along it and step onto the top. Three blocks or taller is never climbable, so real walls, cliffs and buildings behave exactly as before - only the annoying one-block ledges and two-block steps become climbable. Empty hands, no item, no durability, identical in survival and creative. The logic runs on the client, so singleplayer, LAN and servers all behave the same.
+
+贴墙攀爬：面对两格高的方块时按住跳跃键，人物会攀着墙面向上爬并站到顶上；三格及以上永远爬不上去，所以真正的墙、悬崖和建筑不受影响，只有那些一人多高、卡得人难受的台阶和方块堆变得能爬。空手即可，不需要物品也不消耗耐久，生存与创造表现一致。逻辑在客户端运行，单人、局域网和服务器表现相同。
+可调项在 config/wallclimb-client.toml（总开关、最大高度、攀爬速度），支持热重载与模组列表里的配置界面。
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="CLIENT"

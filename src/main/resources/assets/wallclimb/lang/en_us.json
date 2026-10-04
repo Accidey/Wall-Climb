@@ -1,0 +1,12 @@
+{
+  "wallclimb.configuration.title": "Wall Climb",
+  "wallclimb.configuration.section.wallclimb.client.toml": "Wall Climb",
+  "wallclimb.configuration.section.wallclimb.client.toml.title": "Wall Climb",
+
+  "wallclimb.configuration.enabled": "Enable Wall Climb",
+  "wallclimb.configuration.enabled.tooltip": "Hold the jump key while facing a wall to climb obstacles up to two blocks tall",
+  "wallclimb.configuration.maxHeight": "Maximum Height",
+  "wallclimb.configuration.maxHeight.tooltip": "Tallest wall in blocks that can still be climbed; three blocks or taller is never climbable",
+  "wallclimb.configuration.climbSpeed": "Climb Speed",
+  "wallclimb.configuration.climbSpeed.tooltip": "Climbing speed in blocks per second; a vanilla ladder is about 4"
+}
