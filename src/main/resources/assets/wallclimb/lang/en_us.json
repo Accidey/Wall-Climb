@@ -1,0 +1,10 @@
+{
+  "wallclimb.configuration.title": "Wall Climb",
+  "wallclimb.configuration.section.wallclimb.client.toml": "Wall Climb",
+  "wallclimb.configuration.section.wallclimb.client.toml.title": "Wall Climb",
+
+  "wallclimb.configuration.maxHeight": "Maximum Height",
+  "wallclimb.configuration.maxHeight.tooltip": "Tallest wall in blocks that can still be climbed; set to 0 to disable",
+  "wallclimb.configuration.climbSpeed": "Climb Speed",
+  "wallclimb.configuration.climbSpeed.tooltip": "Climbing speed in blocks per second; a vanilla ladder is about 4"
+}
